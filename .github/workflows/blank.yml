@@ -30,7 +30,7 @@ jobs:
         uses: SkylineCommunications/Skyline-DataMiner-Deploy-Action@v1.0.11
         with:
           api-key: ${{secrets.DATAMINER_DEPLOY_1bd318e2bcd849f29223ef28042934e1}}
-          solution-path: ./Example/AutomationScript.sln
+          solution-path: AutomationScript.sln
           artifact-name: EmpowerHelloWorld1
           version: 1.0.1
           timeout: # optional, default is 900
