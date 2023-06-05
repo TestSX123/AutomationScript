@@ -31,7 +31,7 @@ jobs:
         with:
           api-key: ${{secrets.DATAMINER_DEPLOY_1bd318e2bcd849f29223ef28042934e1}}
           solution-path: AutomationScript.sln
-          artifact-name: EmpowerHelloWorld
+          artifact-name: EmpowerHelloWorld1
           version: 1.0.1
           timeout: # optional, default is 900
           stage: # optional, default is All
