@@ -69,6 +69,7 @@ namespace EmpowerHelloWorld1_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Hello Empower Singapore");
+			//First changes
 		}
 	}
 }
