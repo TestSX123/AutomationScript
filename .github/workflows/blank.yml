@@ -43,7 +43,4 @@ jobs:
           solution-path: AutomationScript.sln
           artifact-name: EmpowerHelloWorld
           version: 1.0.1
-          timeout: # optional, default is 900
-          stage: # optional, default is All
-          artifact-id:
           build-number: ${{ github.run_number }}
